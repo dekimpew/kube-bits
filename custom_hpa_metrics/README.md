@@ -117,4 +117,4 @@ Quantity is explained here: https://kubernetes.io/docs/reference/kubernetes-api/
 In the above output the m means milli, meaning you need to divide the number by 1000.  
 This results in a decimal value of 105,5 over the target of 100. 
 
-Because the example HPA takes average values over the READY pods, the value might switch between being an integer and a float, which is why you will see the fixed-point representation of a number (105500m instead of 105,5) from time to time.
+Because the example HPA takes average values across the READY pods, the value might switch between being an integer and a float, which is why you will see the fixed-point representation of a number (105500m instead of 105,5) from time to time.
